@@ -1,0 +1,2 @@
+# PromoForBMW
+Training project GloAcademy
