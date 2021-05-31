@@ -2,5 +2,5 @@
 Training project GloAcademy
 Implemented by Nataliia Donchenko
 
-## Used technologies:
+## Technologies used:
 - Javascript
