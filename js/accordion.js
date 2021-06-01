@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-
   const featureLinksElems = document.querySelectorAll('.feature__link');
   const featureSubElems = document.querySelectorAll('.feature-sub');
 
@@ -11,13 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         featureSubElems.forEach((featureSubElem) => {
           featureSubElem.classList.add('hidden');
-        })
+        });
         featureLinksElems.forEach((featureLinksElem) => {
-          featureLinksElem.classList.remove('feature__link_active')
-        })
+          featureLinksElem.classList.remove('feature__link_active');
+        });
+
         btn.classList.add('feature__link_active');
         featureSubElems[index].classList.remove('hidden');
       }
-    })
-  })
+    });
+  });
 });
